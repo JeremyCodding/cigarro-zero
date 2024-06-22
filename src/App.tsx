@@ -1,8 +1,12 @@
+import Header from "./components/Header";
+import "./App.css";
+
 function App() {
   return (
-    <div>
+    <main className="main">
       <Header />
-    </div>
+      <div className="hero"></div>
+    </main>
   );
 }
 
