@@ -1,9 +1,10 @@
 import Layout from "../../components/Layout";
+import HeroSection from "./modules/Hero";
 
 export default function HomePage() {
   return (
     <Layout>
-      <div className="hero"></div>
+      <HeroSection />
     </Layout>
   );
 }
