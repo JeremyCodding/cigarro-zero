@@ -1,3 +1,9 @@
+import Layout from "../../components/Layout";
+
 export default function HomePage() {
-  return <div>Home Page</div>;
+  return (
+    <Layout>
+      <div className="hero"></div>
+    </Layout>
+  );
 }
