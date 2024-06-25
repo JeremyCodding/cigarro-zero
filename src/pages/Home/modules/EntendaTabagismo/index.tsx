@@ -1,5 +1,9 @@
-import Card from "../../../../components/Card/index"; // Certifique-se que o caminho está correto
+import Card from "../../../../components/Card/index";
 import "./EntendaTabagismo.css";
+import card1Image from "../../../../assets/Card/card1.jpg";
+import card2Image from "../../../../assets/Card/card2.jpg";
+import card3Image from "../../../../assets/Card/card3.jpg";
+import card4Image from "../../../../assets/Card/card4.jpg";
 
 function EntendaTabagismo() {
   return (
@@ -12,22 +16,22 @@ function EntendaTabagismo() {
         <div className="card-grid">
           <Card
             title="Entendendo o Tabagismo"
-            image=""
+            image={card1Image}
             description="O tabagismo é reconhecido como uma doença epidêmica que causa dependência física, psicológica e comportamental."
           />
           <Card
             title="Impacto do Cigarro na Saúde: Doenças e Complicações"
-            image=""
+            image={card2Image}
             description="O tabagismo causa diversas doenças graves, incluindo problemas respiratórios, cardiovasculares e diferentes tipos de câncer."
           />
           <Card
             title="Benefícios de Parar de Fumar"
-            image=""
+            image={card3Image}
             description="Quando alguém para de fumar, há uma série de benefícios significativos para a saúde. Confira!"
           />
           <Card
             title="Comparação Entre Métodos de Cessação do Tabagismo"
-            image=""
+            image={card4Image}
             description="Terapia de reposição de nicotina, medicamentos, acupuntura, hipnose e tratamentos comportamentais. Avalie a eficácia de cada um."
           />
         </div>
