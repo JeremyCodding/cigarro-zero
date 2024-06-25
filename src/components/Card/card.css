@@ -1,21 +1,30 @@
-.card {
+import .card {
   background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 100%;
 }
 
 .card-image {
-  width: 100%;
+  width: 544px;
   height: 160px;
   object-fit: cover;
+  border-radius: 12px;
+  padding: 6px;
 }
 
 .card-content {
-  padding: 20px;
+  padding: 6px;
 }
 
 .card-content h3 {
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-family: Oswald;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.card-content p {
+  font-size: 16px;
+  font-family: Inter;
 }
