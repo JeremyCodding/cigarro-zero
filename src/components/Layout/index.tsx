@@ -1,12 +1,13 @@
 import { ReactNode } from "react";
 import Header from "../Header";
+import Footer from "../Footer/Footer";
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     <main className="main">
       <Header />
       {children}
-      <footer>Aqui fica o footer</footer>
+      <Footer/>
     </main>
   );
 }
