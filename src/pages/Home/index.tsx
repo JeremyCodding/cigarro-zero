@@ -1,5 +1,6 @@
 import Layout from "../../components/Layout";
 import EntendaTabagismoSection from "./modules/EntendaTabagismo";
+import FindHelp from "./modules/FindHelp";
 import HeroSection from "./modules/Hero";
 
 export default function HomePage() {
@@ -7,6 +8,7 @@ export default function HomePage() {
     <Layout>
       <HeroSection />
       <EntendaTabagismoSection />
+      <FindHelp />
     </Layout>
   );
 }

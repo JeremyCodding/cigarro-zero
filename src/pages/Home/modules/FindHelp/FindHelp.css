@@ -1,0 +1,43 @@
+.find-help-section {
+  display: flex;
+  width: 100%;
+  background: #e6eef7;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.title-cta {
+  color: var(--Grey-Shades-500, #1c1c1c);
+  text-align: center;
+  /* Headline/H1 */
+  font-family: Oswald;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 62.4px */
+  letter-spacing: -0.572px;
+}
+
+.sub-text-cta {
+  color: var(--Grey-Shades-500, #1c1c1c);
+  text-align: center;
+  /* Subtitle/Subtitle */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.22px;
+}
+
+.container-cta {
+  padding: 80px 0px 60px 0px;
+  max-width: 1120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
