@@ -1,25 +1,30 @@
 import heroImage from "../../../../assets/hero-image.svg";
+import "./Hero.css";
 
 export default function HeroSection() {
   return (
-    <div className="hero">
+    <section className="hero">
       <div className="container">
         <div className="text-section">
-          <p>comece uma vida</p>
-          <p>saudável e sem cigarro</p>
-          <p>
-            Nossa missão é fornecer informações valiosas e recursos de apoio
-            para todos que desejam parar de fumar.{" "}
+          <p className="first-title">comece uma vida</p>
+          <p className="second-title">
+            saudável e <span className="colored-text">sem cigarro</span>
           </p>
-          <p>
-            Navegue pelo nosso site e encontre tudo que você precisa para
-            começar sua jornada livre do cigarro!
-          </p>
+          <section className="sub-text-section">
+            <p className="sub-text">
+              Nossa missão é fornecer informações valiosas e recursos de apoio
+              para todos que desejam parar de fumar.{" "}
+            </p>
+            <p className="sub-text">
+              Navegue pelo nosso site e encontre tudo que você precisa para
+              começar sua jornada livre do cigarro!
+            </p>
+          </section>
         </div>
         <div className="image-section">
           <img src={heroImage} alt="Foto depoimentos" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
