@@ -1,3 +1,98 @@
+:root {
+  --white50: #fefefe;
+  --white100: #fdfdfd;
+  --white150: #fafafa;
+  --white200: #f0f0f0;
+  --white250: #d6d6d6;
+  --white300: #c2c2c2;
+  --white350: #b4b4b4;
+  --white400: #909090;
+  --white450: #6c6c6c;
+  --white500: #545454;
+  --gray50: #ededed;
+  --gray100: #e8e8e8;
+  --gray150: #c8c8c8;
+  --gray200: #bcbcbc;
+  --gray250: #4f4f4f;
+  --gray300: #474747;
+  --gray350: #3f3f3f;
+  --gray400: #2f2f2f;
+  --gray450: #242424;
+  --gray500: #1c1c1c;
+  --primary50: #e6eef7;
+  --primary100: #d9e5f3;
+  --primary150: #b0c9e7;
+  --primary200: #0051b0;
+  --primary250: #00499e;
+  --primary300: #00418d;
+  --primary350: #003d84;
+  --primary400: #00316a;
+  --primary450: #00244f;
+  --primary500: #001c3e;
+  --secondary50: #f3f5f7;
+  --secondary100: #e4e9f3;
+  --secondary150: #c7d1e7;
+  --secondary200: #0073b0;
+  --secondary250: #00659e;
+  --secondary300: #00578d;
+  --secondary350: #004f84;
+  --secondary400: #00416a;
+  --secondary450: #00344f;
+  --secondary500: #00283e;
+  --tertiary50: #f7f9fb;
+  --tertiary100: #f2f4f7;
+  --tertiary150: #e4e7f3;
+  --tertiary200: #0085b0;
+  --tertiary250: #00739e;
+  --tertiary300: #00618d;
+  --tertiary350: #005384;
+  --tertiary400: #00456a;
+  --tertiary450: #00384f;
+  --tertiary500: #002c3e;
+
+  /* Success Colors */
+
+  --success-50: #e9f5e6; /* rgb(233, 245, 230) */
+  --success-50: #d9efd9;
+  --success-100: #deefd9; /* rgb(222, 239, 217) */
+  --success-100: #badcbl; /* rgb(186, 222, 177) */
+  --success-150: #209603; /* rgb(32, 150, 3) */
+  --success-150: #1a7802; /* rgb(26, 120, 2) */
+  --success-200: #108703; /* rgb(16, 135, 3) */
+  --success-200: #187102; /* rgb(24, 113, 2) */
+  --success-250: #1a7802; /* rgb(26, 120, 2) */
+  --success-250: #135a02; /* rgb(19, 90, 2) */
+  --success-300: #187102; /* rgb(24, 113, 2) */
+  --success-300: #0e4401; /* rgb(14, 68, 1) */
+  --success-350: #135a02; /* rgb(19, 90, 2) */
+  --success-350: #063501; /* rgb(6, 53, 1) */
+  --success-400: #0e4401; /* rgb(14, 68, 1) */
+  --success-400: #063501; /* rgb(6, 53, 1) */
+  --success-450: #063501; /* rgb(6, 53, 1) */
+
+  /* Error Colors */
+
+  --error-50: #fbebeb; /* rgb(251, 230, 230) */
+  --error-50: #f9d9d9; /* rgb(249, 217, 217) */
+  --error-100: #f9d9d9; /* rgb(249, 217, 217) */
+  --error-100: #f3b0b0; /* rgb(243, 176, 176) */
+  --error-150: #d90000; /* rgb(217, 0, 0) */
+  --error-150: #ae0000; /* rgb(174, 0, 0) */
+  --error-200: #c30000; /* rgb(195, 0, 0) */
+  --error-200: #a30000; /* rgb(163, 0, 0) */
+  --error-250: #c30000; /* rgb(195, 0, 0) */
+  --error-250: #820000; /* rgb(130, 0, 0) */
+  --error-300: #ae0000; /* rgb(174, 0, 0) */
+  --error-300: #620000; /* rgb(98, 0, 0) */
+  --error-350: #a30000; /* rgb(163, 0, 0) */
+  --error-350: #4c0000; /* rgb(76, 0, 0) */
+  --error-400: #820000; /* rgb(130, 0, 0) */
+  --error-400: #4c0000; /* rgb(76, 0, 0) */
+  --error-450: #620000; /* rgb(98, 0, 0) */
+  --error-450: #4c0000; /* rgb(76, 0, 0) */
+  --error-500: #4c0000; /* rgb(76, 0, 0) */
+}
+
 * {
   margin: 0;
   padding: 0;
