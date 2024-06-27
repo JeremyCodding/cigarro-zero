@@ -3,15 +3,14 @@
   gap: 20px;
 }
 
-/* Carousel.css (ou no arquivo CSS onde você tem os estilos do carrossel) */
 .carousel-topics {
   display: flex;
   flex-direction: row;
   gap: 32px;
   flex-wrap: wrap;
-  justify-content: center; /* Centraliza os tópicos horizontalmente */
-  width: fit-content; /* Ajusta a largura do container ao conteúdo */
-  margin: 0 auto; /* Centraliza o container na página */
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .carousel-topic {

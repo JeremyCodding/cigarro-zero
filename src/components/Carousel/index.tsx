@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Carousel.css"; // Seu arquivo de estilos CSS
+import "./Carousel.css";
 
 function Carousel() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -42,13 +42,6 @@ function Carousel() {
           >
             {topic.title}
           </button>
-        ))}
-      </div>
-      <div className="carousel-cards">
-        {topics[activeIndex]?.cards?.map((card, index) => (
-          <div key={index} className={card ? "card" : ""}>
-            {/* Conteúdo do card */}
-          </div>
         ))}
       </div>
     </div>
