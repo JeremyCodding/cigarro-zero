@@ -45,8 +45,8 @@ function Carousel() {
         ))}
       </div>
       <div className="carousel-cards">
-        {topics[activeIndex].cards.map((card, index) => (
-          <div key={index} className="card">
+        {topics[activeIndex]?.cards?.map((card, index) => (
+          <div key={index} className={card ? "card" : ""}>
             {/* Conteúdo do card */}
           </div>
         ))}
