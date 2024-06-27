@@ -1,9 +1,14 @@
+import Carousel from "../../components/Carousel";
 import Layout from "../../components/Layout";
+import TitleSection from "./modules/TitleSection/index";
+import CardSection from "./modules/CardSection";
 
 export default function InformeSe() {
   return (
     <Layout>
-      <div></div>
+      <TitleSection />
+      <Carousel />
+      <CardSection />
     </Layout>
   );
 }
