@@ -31,3 +31,8 @@
   gap: 40px;
   width: 100%;
 }
+
+.header-btn {
+  text-decoration: none;
+  color: inherit;
+}
