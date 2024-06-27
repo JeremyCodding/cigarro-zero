@@ -1,5 +1,3 @@
-import "./Title.css";
-
 function CardSection() {
   return (
     <section className="informe-se">
