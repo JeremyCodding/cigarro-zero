@@ -11,7 +11,7 @@ function Footer() {
         <nav className="navFooter">
           <ul className="listFooter">
             <li>
-              <Link to="#">Informe-se</Link>
+              <Link to="/informe-se">Informe-se</Link>
             </li>
             <li>
               <Link to="#">Calculadora de saúde</Link>
