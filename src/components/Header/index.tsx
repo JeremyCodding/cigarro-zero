@@ -10,7 +10,7 @@ function Header() {
 
         <nav className="nav-bar">
           <ul className="nav-list">
-            <Link to="/pagina-de-informacoes" className="header-btn">
+            <Link to="/informe-se" className="header-btn">
               <li className="nav-list-item">Informe-se</li>
             </Link>
             <li className="nav-list-item">Calculadora de saúde</li>

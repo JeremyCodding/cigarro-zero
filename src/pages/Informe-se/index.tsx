@@ -1,14 +1,9 @@
 import Layout from "../../components/Layout";
-import EntendaTabagismoSection from "./modules/EntendaTabagismo";
-import FindHelp from "./modules/FindHelp";
-import HeroSection from "./modules/Hero";
 
-export default function HomePage() {
+export default function InformeSe() {
   return (
     <Layout>
-      <HeroSection />
-      <EntendaTabagismoSection />
-      <FindHelp />
+      <div></div>
     </Layout>
   );
 }
