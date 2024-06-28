@@ -68,6 +68,7 @@ interface TeamMember {
             <a href="#"><div className="LogoLinkedin1"><img src={Linkedin} alt="Logo Linkedin" /></div>Linkedin</a>
           </div>
         </div>
+        <h3 className="TimeVermelhoRubi">Time Vermelho Rubi</h3>
         <div className="VermelhoRubi">
             {teamMembers.map(member => (
               <div key={member.id} className="CardVermelhoRubi">

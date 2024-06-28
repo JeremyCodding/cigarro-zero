@@ -8,6 +8,15 @@
     margin: 0 auto;
     background: linear-gradient(to top right, #FFFFFF, #FFF7E6);
 }
+.TimeVermelhoRubi{
+    font-family: "Oswald", sans-serif;
+    background-color:#E6EEF7;
+    color: #001C3E;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: -45px;
+}
 span{
     color: #00418d;
     display: block;
