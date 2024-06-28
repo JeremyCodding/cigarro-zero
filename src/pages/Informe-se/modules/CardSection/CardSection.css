@@ -2,6 +2,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px 80px;
-  padding-top: 66px;
-  padding-bottom: 44px;
+  padding-top: 35px;
+  padding-bottom: 96px;
 }
