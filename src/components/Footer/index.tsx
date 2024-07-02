@@ -5,9 +5,11 @@ function Footer() {
   return (
     <footer>
       <div className="FooterIcons">
-        <div className="LogoWhite">
-          <img src={LogoWhite} alt="Logo Cigarro Zero" />
-        </div>
+        <Link to="/">
+          <div className="LogoWhite">
+            <img src={LogoWhite} alt="Logo Cigarro Zero" />
+          </div>
+        </Link>
         <nav className="navFooter">
           <ul className="listFooter">
             <li>
@@ -26,8 +28,12 @@ function Footer() {
         </nav>
         <hr className="horizonRule" />
         <div className="footer-text">
-          <p>Copyright 2024 - Cigarro Zero - Todos os direitos reservados</p>
-          <p>Sua saúde merece um respiro, abrace a vida!</p>
+          <div className="footer-text-left">
+            <p>Copyright 2024 - Cigarro Zero - Todos os direitos reservados</p>
+          </div>
+          <div className="footer-text-right">
+            <p>Sua saúde merece um respiro, abrace a vida!</p>
+          </div>
         </div>
       </div>
     </footer>
