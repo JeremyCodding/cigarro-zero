@@ -5,27 +5,31 @@ function Footer() {
   return (
     <footer>
       <div className="FooterIcons">
-        <Link to="/">
-          <div className="LogoWhite">
-            <img src={LogoWhite} alt="Logo Cigarro Zero" />
-          </div>
-        </Link>
-        <nav className="navFooter">
-          <ul className="listFooter">
-            <li>
-              <Link to="#">Informe-se</Link>
-            </li>
-            <li>
-              <Link to="#">Calculadora de saúde</Link>
-            </li>
-            <li>
-              <Link to="#">Encontrar ajuda</Link>
-            </li>
-            <li>
-              <Link to="#">Sobre nós</Link>
-            </li>
-          </ul>
-        </nav>
+        <div className="footer-text">
+          <Link to="/">
+            <div className="LogoWhite">
+              <img src={LogoWhite} alt="Logo Cigarro Zero" />
+            </div>
+          </Link>
+          <nav className="navFooter">
+            <div className="list">
+              <ul className="listFooter">
+                <li>
+                  <Link to="#">Informe-se</Link>
+                </li>
+                <li>
+                  <Link to="#">Calculadora de saúde</Link>
+                </li>
+                <li>
+                  <Link to="#">Encontrar ajuda</Link>
+                </li>
+                <li>
+                  <Link to="#">Sobre nós</Link>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
         <hr className="horizonRule" />
         <div className="footer-text">
           <div className="footer-text-left">
