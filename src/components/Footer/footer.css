@@ -1,72 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
 @media (min-width: 2560px) {
-    .FooterIcons {
-        max-width: 50%;
-        margin: 0 auto;
-    }
+  .FooterIcons {
+    margin: 0 auto;
+  }
 }
 
-*{
-    overflow-x: hidden;
+* {
+  box-sizing: border-box;
 }
-footer{
-    width: 100%;
-    max-width: 2560px;
-    margin: 0 auto;
-    height: 228px;
-    background-color:  #003d84;
-    display: flex;
-    justify-content:space-around;
-    color: #FEFEFE;
-    overflow-x: hidden;
+
+footer {
+  width: 100%;
+  max-width: auto;
+  margin: 0 auto;
+  height: auto;
+  background-color: #003d84;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #fefefe;
+  padding: 20px;
+  font-family: "Inter", sans-serif;
 }
-footer img{
-    margin-bottom: -92px;
-  
+
+footer img {
+  width: 72px;
+  height: 60.86px;
+  margin-bottom: 20px;
 }
+
 footer a {
-    color:#FEFEFE;
-    text-decoration: none;
-}
-.navFooter{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 70px;
-    margin-left: 420px;
-    width: 566px;
-
-}
-.FooterIcons{
-    margin-bottom: 114px;
-    width: 85%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-.listFooter{
-    display: flex;
-    flex-direction: end;
-    list-style: none;
-    margin-bottom: 40px;
-    width: 566px;
-    height: 24px;
-    gap: 62px;
-}
-.horizonRule{
-    width: 1062px;
-    height: 0px;
-    margin-bottom: 12px;
-
+  color: #fefefe;
+  text-decoration: none;
 }
 
-.footer-text{
-    display:flex;
-    justify-content: space-between;
-    width: 1062px;
-    font-size: 12px;
-    margin-bottom: 15px;
-    font-family: "Inter", sans-serif;
+.FooterIcons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 60px;
+}
 
-} 
+.navFooter {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
 
+.listFooter {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 100%;
+  gap: 40px;
+}
+
+.horizonRule {
+  width: 100%;
+  height: 1px;
+  background-color: #fefefe;
+  margin: 20px 0;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 16px;
+}
+
+.list {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.footer-text-right,
+.footer-text-left {
+  width: auto;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .FooterIcons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navFooter,
+  .listFooter,
+  .footer-text {
+    text-align: left;
+  }
+}
