@@ -26,7 +26,7 @@
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Duas colunas com largura igual */
+  grid-template-columns: repeat(2, 1fr);
   gap: 32px 80px;
   padding-top: 66px;
   padding-bottom: 44px;
