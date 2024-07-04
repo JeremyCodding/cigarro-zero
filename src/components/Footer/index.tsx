@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import LogoWhite from '../../assets/logo-white.svg';
-import './Footer.css';
+import './footer.css';
 function Footer(){
     return(
         <footer>
@@ -26,4 +26,4 @@ function Footer(){
     )
 }
 
-export default Footer
+export default Footer;
