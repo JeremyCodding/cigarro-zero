@@ -1,8 +1,8 @@
 import "../Sobre-nos/SobreNos.css";
 import Layout from "../../components/Layout/index";
-import Casal from "../../assets/SobreNosImg/Casal.png";
-import Card from "../../assets/SobreNosImg/card.png";
-import Ibson from "../../assets/SobreNosImg/Ibson.png";
+import Casal from "../../assets/SobreNosImg/casal (2).svg";
+import Waves from "../../assets/SobreNosImg/Waves 02.svg";
+import Ibson from "../../assets/SobreNosImg/Ibson.svg";
 import Linkedin from "../../assets/SobreNosImg/LogoLinkedin.svg";
 import Alex from "../../assets/SobreNosImg/Alex.png";
 import Flavia from "../../assets/SobreNosImg/Flavia.png";
@@ -42,7 +42,6 @@ interface TeamMember {
         <div className="HeroSobreNos">
           <div className="ImgHero">
             <img src={Casal} alt="Casal" className="Casal" />
-            <img src={Card} alt="Card" className="Card" />
           </div>
           <div className="HeroText">
             <h1>Conheça o projeto <span>cigarro zero</span></h1>
@@ -52,6 +51,7 @@ interface TeamMember {
           <div className="HeroText2">
             <h2>Nosso propósito</h2>
             <p>Ser uma fonte confiável de informações e uma ferramenta de apoio na <br />luta contra o tabagismo. Ao ajudar indivíduos a abandonarem o cigarro,<br /> buscamos reduzir os casos de doenças relacionadas ao tabagismo e<br /> melhorar a qualidade de vida das pessoas.</p>
+            <img src={Waves} alt="" className="waves" />
           </div>
         </div>
         <div className="SobreNos">
@@ -62,10 +62,12 @@ interface TeamMember {
             </p>
           </div>
           <div className="CardSobreNos">
-            <div className="FotoPerfil"></div>
             <img src={Ibson} alt="Foto de Perfil Ibson" className="Ibson"/>
             <p>Ibson Cabral</p>
-            <a href="#"><div className="LogoLinkedin1"><img src={Linkedin} alt="Logo Linkedin" /></div>Linkedin</a>
+            <div className="LinkedinIbson">
+            <div className="LogoLinkedin1"><img src={Linkedin} alt="Logo Linkedin"/></div>
+              <a href="#">Linkedin</a>
+              </div>
           </div>
         </div>
         <h3 className="TimeVermelhoRubi">Time Vermelho Rubi</h3>
@@ -75,9 +77,10 @@ interface TeamMember {
                 <img src={member.photo} alt={`Foto de Perfil ${member.name}`} />
                 <p className="Nome">{member.name}</p>
                 <p><span>{member.cargo}</span></p>
-                <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
-                  <div className="LogoLinkedin"><img src={Linkedin} alt="Logo Linkedin" />Linkedin</div>
-                </a>
+                <div className="LogoLinkedin">
+                  <img src={Linkedin} alt="Logo Linkedin" />
+                  <a href={member.linkedin} target="_blank" rel="noopener noreferrer">Linkedin</a>
+                </div>
               </div>
             ))}
           </div>
