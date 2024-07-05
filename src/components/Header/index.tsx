@@ -1,12 +1,33 @@
 import { Link } from "react-router-dom";
 import Logo from "../Logo";
 import "./header.css";
+import { useEffect, useState } from "react";
 
 function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const scrollHeader = () => {
+      if (window.scrollY >= 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", scrollHeader);
+
+    return () => {
+      window.removeEventListener("scroll", scrollHeader);
+    };
+  }, []);
+
   return (
-    <header className="header">
+    <header className={`header ${isScrolled ? "shadow-header" : ""}`}>
       <div className="container">
-        <Logo />
+        <Link to="/">
+          <Logo />
+        </Link>
 
         <nav className="nav-bar">
           <ul className="nav-list">
