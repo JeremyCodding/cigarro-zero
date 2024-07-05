@@ -24,7 +24,7 @@ function Footer() {
                   <Link to="#">Encontrar ajuda</Link>
                 </li>
                 <li>
-                  <Link to="#">Sobre nós</Link>
+                  <Link to="/Sobre-nos">Sobre nós</Link>
                 </li>
               </ul>
             </div>
