@@ -1,7 +1,6 @@
 .header {
   width: 100%;
   padding: 4px;
-  top: 0px;
   background-color: #b0c9e7;
   font-family: "Inter";
   display: flex;
@@ -36,11 +35,20 @@
 }
 
 .nav-list {
+  width: 100%;
   display: flex;
   list-style: none;
   align-items: center;
   gap: 40px;
   width: 100%;
+  padding: 10px;
+}
+
+.nav-list li {
+  color: var(--gray500);
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: -0.176px;
 }
 
 .header-btn {
