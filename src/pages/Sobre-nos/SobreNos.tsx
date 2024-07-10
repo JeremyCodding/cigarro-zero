@@ -44,7 +44,7 @@ interface TeamMember {
             <img src={Casal} alt="Casal" className="Casal" />
           </div>
           <div className="HeroText">
-            <h1>Conheça o projeto <span>cigarro zero</span></h1>
+            <h1>Conheça o projeto <span className="CigarroZero">cigarro zero</span></h1>
             <h2>Uma iniciativa para ajudar pessoas a pararem de fumar</h2>
             <p>O Projeto foi criado com base em extensas pesquisas sobre<br /> Doenças Pulmonares Obstrutivas Crônicas (DPOC).<br />Reconhecendo o cigarro como um dos principais causadores<br /> dessas doenças, decidimos atacar a raiz do problema para um impacto mais abrangente na saúde das pessoas.</p>
           </div>
@@ -76,7 +76,7 @@ interface TeamMember {
               <div key={member.id} className="CardVermelhoRubi">
                 <img src={member.photo} alt={`Foto de Perfil ${member.name}`} />
                 <p className="Nome">{member.name}</p>
-                <p><span>{member.cargo}</span></p>
+                <p><span className="Cargo">{member.cargo}</span></p>
                 <div className="LogoLinkedin">
                   <img src={Linkedin} alt="Logo Linkedin" />
                   <a href={member.linkedin} target="_blank" rel="noopener noreferrer">Linkedin</a>

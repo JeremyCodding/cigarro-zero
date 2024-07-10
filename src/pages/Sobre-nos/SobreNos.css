@@ -17,7 +17,7 @@
     font-weight: 600;
     margin-bottom: -45px;
 }
-span{
+.CigarroZero{
     color: #00418d;
     display: block;
     text-transform: uppercase;
@@ -189,12 +189,13 @@ span{
     text-align: center;
     font-weight: 700;
 }
-.CardVermelhoRubi span{
+.Cargo{
     font-family: "Inter", sans-serif;
     color: #2B2B2B;
     font-weight: 400;
     font-size: 16px;
     text-align: center;
+    display:block ;
 }
 .CardVermelhoRubi a{
     font-family: "Inter", sans-serif;
