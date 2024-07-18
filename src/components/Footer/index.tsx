@@ -1,17 +1,12 @@
 import { Link } from "react-router-dom";
 import "./footer.css";
 import LogoWhite from "../../assets/logo-white.svg";
-
 function Footer() {
-  const handleLogoClick = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" }); // Rolagem suave para o topo
-  };
-
   return (
     <footer>
       <div className="FooterIcons">
         <div className="footer-text">
-          <Link to="/" onClick={handleLogoClick}>
+          <Link to="/">
             <div className="LogoWhite">
               <img src={LogoWhite} alt="Logo Cigarro Zero" />
             </div>
