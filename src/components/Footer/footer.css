@@ -85,6 +85,10 @@ footer a {
   font-size: 12px;
 }
 
+.LogoWhite {
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .FooterIcons {
     flex-direction: column;
