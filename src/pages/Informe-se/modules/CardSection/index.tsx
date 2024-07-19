@@ -1,5 +1,5 @@
 import Card from "../../../../components/Card";
-import "./CardSection.css";
+import styles from "./cardSection.module.css";
 import card1Image from "../../../../assets/Card/card1.jpg";
 import card2Image from "../../../../assets/Card/card2.jpg";
 import card3Image from "../../../../assets/Card/card3.jpg";
@@ -9,7 +9,7 @@ function CardSection() {
   return (
     <section className="informe-se">
       <div className="container">
-        <div className="card-grid">
+        <div className={styles.card_grid}>
           <Card
             title="Entendendo o Tabagismo"
             image={card1Image}
