@@ -4,7 +4,7 @@ import .card {
   width: 100%;
 }
 
-.card-image {
+.card_image {
   width: 544px;
   height: 160px;
   object-fit: cover;
@@ -12,11 +12,11 @@ import .card {
   padding: 6px;
 }
 
-.card-content {
+.card_content {
   padding: 6px;
 }
 
-.card-content h3 {
+.card_content h3 {
   font-size: 20px;
   margin-bottom: 8px;
   font-family: Oswald;
@@ -24,7 +24,7 @@ import .card {
   font-size: 20px;
 }
 
-.card-content p {
+.card_content p {
   font-size: 16px;
   font-family: Inter;
 }

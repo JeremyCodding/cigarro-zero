@@ -1,4 +1,4 @@
-.card-grid {
+.card_grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px 80px;
