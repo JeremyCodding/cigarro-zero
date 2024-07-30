@@ -48,10 +48,10 @@ function Footer() {
         <hr className="horizonRule" />
         <div className="footer-text">
           <div className="footer-text-left">
-            <p>Copyright 2024 - Cigarro Zero - Todos os direitos reservados</p>
+            <p>Sua saúde merece um respiro, abrace a vida!</p>
           </div>
           <div className="footer-text-right">
-            <p>Sua saúde merece um respiro, abrace a vida!</p>
+            <p>Copyright 2024 - Cigarro Zero - Todos os direitos reservados</p>
           </div>
         </div>
       </div>
