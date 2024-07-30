@@ -102,16 +102,30 @@ footer a {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
+  .FooterIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+  }
   .footer-text {
     display: flex;
     flex-direction: column;
-    margin-left: 70px;
-    font-size: 14px;
+  }
+  .horizonRule {
+    width: 200px;
+  }
+  .footer-text-left {
+    width: 200px;
+    margin-bottom: 50px;
+  }
+
+  .footer-text-right {
+    margin-top: 50px;
+    width: 200px;
     
   }
-  .footer-text-left,
-  .footer-text-right {
-    margin-left: -20px;
-  }
+   
 }

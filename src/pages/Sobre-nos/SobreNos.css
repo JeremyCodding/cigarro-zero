@@ -220,6 +220,93 @@
   margin-left: 32px;
 }
 
+@media(max-width: 768px) {
+  .main {
+   overflow: hidden;
+  }
+  .HeroSobreNos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .ImgHero {
+    order: 2;
+  }
+
+  .Casal { 
+    width: 100%;
+    height: 100%;
+  }
+  
+  .HeroText {
+    width: 80%;
+  }
+  .HeroText h1 {
+   margin: auto;
+   padding-top: 10px;
+   text-align: center;
+   padding-bottom: 0;
+  }
+  .HeroText h2 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    width: 250px;
+  }
+  .HeroText p {
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 12px;
+  }
+  .HeroText2 {
+    margin-bottom: 50px;
+    order: 2;
+    width: 80%;
+  }
+  .HeroText2 h2 {
+    margin-bottom: 5px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .HeroText2 p {
+    font-size: 16px;
+  }
+  .SobreNos {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .Miolo {
+   display: flex;
+   align-items: center;
+  }
+
+  .Miolo h3 {
+    order: 3;
+    font-size: 30px;
+    order: 2;
+  }
+  .Miolo p {
+    font-size: 22px;
+    white-space: normal;
+    width: 250px;
+    margin-top: 20px;
+    order: 2;
+    
+  }
+
+  .VermelhoRubi {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+}
+
 @media (max-width: 393px) {
   .HeroSobreNos {
     display: flex;
@@ -290,76 +377,93 @@
 }
 
 @media (max-width: 480px) {
+  .main {
+  overflow: hidden;
+  }
   .HeroSobreNos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 5px;
   }
+  .ImgHero {
+    order: 2;
+  }
+
   .Casal {
-    display: flex;
-    justify-content: center;
-    margin-left: -140px;
-    width: 400px;
-    height: 350px;
+    padding-bottom: 40px;
   }
+  
   .HeroText {
-    font-size: 11px;
-    margin-left: 40px;
-    margin-top: 50px;
+    width: 80%;
   }
-  .CigarroZero {
-    white-space: nowrap;
-    margin-bottom: 5px;
+  .HeroText h1 {
+   margin: auto;
+   padding-top: 10px;
+   text-align: center;
+   padding-bottom: 0;
   }
   .HeroText h2 {
-    margin-bottom: 5px;
     font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    width: 250px;
   }
   .HeroText p {
-    width: -50px;
     font-size: 10px;
-    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 12px;
   }
   .HeroText2 {
     font-size: 12px;
     margin-left: -40px;
     margin-bottom: 50px;
+    order: 2;
+    width: 80%;
   }
   .HeroText2 h2 {
     margin-bottom: 5px;
-    font-size: 16px;
+    font-size: 18px;
+    text-align: center;
   }
   .HeroText2 p {
-    width: -50px;
     font-size: 10px;
-    width: 300px;
-    white-space: nowrap;
+    margin-left: -10px;
+  }
+  .SobreNos {
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .Miolo h3 {
-    white-space: nowrap;
+    order: 3;
     font-size: 25px;
+    order: 2;
   }
   .Miolo p {
     font-size: 14px;
     white-space: normal;
     width: 250px;
     margin-top: 20px;
+    order: 2;
   }
   .CardSobreNos {
-    margin-left: 60px;
+    margin-left: 32px;
     margin-bottom: 50px;
-  }
-  .VermelhoRubi {
-    margin-left: -50px;
+    order: 1;
   }
   
 }
 
-@media (max-width: 360px) {
-  .Casal {
+@media (max-width: 390px) {
+  .HeroSobreNos {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  .ImgHero {
     display: flex;
     justify-content: center;
     width: 370px;
@@ -383,6 +487,10 @@
   }
   .TimeVermelhoRubi {
     font-size: 25px;
+  }
+
+  .HeroSobreNos-mobile {
+    display: block;
   }
 }
 
