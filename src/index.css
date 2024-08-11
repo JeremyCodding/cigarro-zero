@@ -98,3 +98,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  padding-top: 110px;
+}
+
+.header-content,
+.container,
+.banner-content,
+.container-cta {
+  max-width: 1280px;
+  margin: 0 auto;
+}

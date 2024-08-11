@@ -1,10 +1,10 @@
-import "./Title.css";
+import "./titleSection.css";
 
 function TitleSection() {
   return (
-    <section className="informe-se">
+    <section className="section_informe-se">
       <div className="container">
-        <div className="header-content">
+        <div className="title_section_content">
           <h2>Entenda sobre o Tabagismo</h2>
           <p className="subtitle">Uma seleção especial de conteúdos</p>
         </div>
