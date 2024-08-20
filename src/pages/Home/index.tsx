@@ -1,14 +1,13 @@
-import Layout from "../../components/Layout";
-import EntendaTabagismoSection from "./modules/EntendaTabagismo";
-import FindHelp from "./modules/FindHelp";
-import HeroSection from "./modules/Hero";
+import Header from "./components/Header";
+import UnderstandAboutSmoking from "./components/UnderstandAboutSmoking";
+import FindHelp from "./components/FindCare";
 
 export default function HomePage() {
   return (
-    <Layout>
-      <HeroSection />
-      <EntendaTabagismoSection />
+    <>
+      <Header />
+      <UnderstandAboutSmoking />
       <FindHelp />
-    </Layout>
+    </>
   );
 }
