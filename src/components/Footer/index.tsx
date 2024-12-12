@@ -1,33 +1,43 @@
 import { Link } from "react-router-dom";
-import LogoWhite from "../../assets/logo-white.svg";
 import "./footer.css";
+import LogoWhite from "../../assets/logo-white.svg";
 function Footer() {
   return (
     <footer>
       <div className="FooterIcons">
-        <div className="LogoWhite">
-          <img src={LogoWhite} alt="Logo Cigarro Zero" />
+        <div className="footer-text">
+          <Link to="/">
+            <div className="LogoWhite">
+              <img src={LogoWhite} alt="Logo Cigarro Zero" />
+            </div>
+          </Link>
+          <nav className="navFooter">
+            <div className="list">
+              <ul className="listFooter">
+                <li>
+                  <Link to="#">Informe-se</Link>
+                </li>
+                <li>
+                  <Link to="#">Calculadora de saúde</Link>
+                </li>
+                <li>
+                  <Link to="#">Encontrar ajuda</Link>
+                </li>
+                <li>
+                  <Link to="/Sobre-nos">Sobre nós</Link>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-        <nav className="navFooter">
-          <ul className="listFooter">
-            <li>
-              <Link to="#">Informe-se</Link>
-            </li>
-            <li>
-              <Link to="#">Calculadora de saúde</Link>
-            </li>
-            <li>
-              <Link to="#">Encontrar ajuda</Link>
-            </li>
-            <li>
-              <Link to="#">Sobre nós</Link>
-            </li>
-          </ul>
-        </nav>
         <hr className="horizonRule" />
         <div className="footer-text">
-          <p>Copyright 2024 - Cigarro Zero - Todos os direitos reservados</p>
-          <p>Sua saúde merece um respiro, abrace a vida!</p>
+          <div className="footer-text-left">
+            <p>Copyright 2024 - Cigarro Zero - Todos os direitos reservados</p>
+          </div>
+          <div className="footer-text-right">
+            <p>Sua saúde merece um respiro, abrace a vida!</p>
+          </div>
         </div>
       </div>
     </footer>
